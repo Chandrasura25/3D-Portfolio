@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { logo, menu, close } from "../assets";
-import { styles } from "../style";
 import { Link } from "react-router-dom";
+import { styles } from "../style";
 import { navLinks } from "../constants";
 const Navbar = () => {
   const [active, setActive] = useState("");
