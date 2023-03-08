@@ -46,12 +46,12 @@ const services = [
         icon: web,
     },
     {
-        title: "MERN Stack Developer",
-        icon: web,
-    },
-    {
         title: "Backend Developer",
         icon: backend,
+    },
+    {
+        title: "MERN Stack Developer",
+        icon: web,
     },
     {
         title: "Content Creator",
