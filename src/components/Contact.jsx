@@ -5,6 +5,9 @@ import { EarthCanvas } from "./canvas";
 import emailjs from "@emailjs/browser";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -13,8 +16,43 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
-  const handleSubmit = (e) => {};
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs
+      .send(
+        "service_vb74nol",
+        "template_lmcqeut",
+        {
+          from_name: form.name,
+          to_name: "Roqeebah Abdulganiy",
+          from_email: form.email,
+          to_email: "abdulganiy1624demilade@gmail.com",
+          message: form.message,
+        },
+        "8YTEx27CoW1D86Ksm"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          toast("Thank you. I will get back to you as soon as possible");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          toast("Something went wrong");
+        }
+      );
+  };
   return (
     <div className="flex xl:mt-12 xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
@@ -23,7 +61,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get In Touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <ToastContainer theme="dark" />
         <form
           ref={formRef}
           onSubmit={handleSubmit}
