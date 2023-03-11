@@ -11,6 +11,7 @@ import {
   StarsCanvas,
 } from "./components";
 import { Helmet } from "react-helmet";
+import './App.css';
 const App = () => {
   return (
     <BrowserRouter>
