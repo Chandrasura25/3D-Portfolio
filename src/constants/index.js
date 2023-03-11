@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    blog,
+    estate,
+    exercise,
+    fun,
+    music,
+    quiz
 } from "../assets";
 
 export const navLinks = [
@@ -198,28 +204,28 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Real Estator",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to search, book, and manage house rentals from various providers, providing a convenient and efficient solution for accommodation needs.",
         tags: [
             {
-                name: "react",
+                name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "chakra-ui",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "restapi",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: estate,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Exercise IT",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -236,7 +242,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: exercise,
         source_code_link: "https://github.com/",
     },
     {
