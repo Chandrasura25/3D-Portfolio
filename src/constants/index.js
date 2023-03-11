@@ -19,9 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    art,
     threejs,
     blog,
     estate,
@@ -222,12 +220,12 @@ const projects = [
             },
         ],
         image: estate,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Chandrasura25/Real_Estator",
     },
     {
         name: "Exercise IT",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that enables users to search for different exercises for different body parts, view videos for positions, and locate similar exercise based on their current search.",
         tags: [
             {
                 name: "react",
@@ -238,24 +236,24 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "material-ui",
                 color: "pink-text-gradient",
             },
         ],
         image: exercise,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Chandrasura25/exercise-app",
     },
     {
-        name: "Trip Guide",
+        name: "Jingle Jangle",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A music app that allows users to listen to and discover new music. The app features a user-friendly interface that enables users to upload and stream music from various genres, artists, and albums.",
         tags: [
             {
-                name: "nextjs",
+                name: "firebase",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "bootstrap",
                 color: "green-text-gradient",
             },
             {
@@ -263,8 +261,71 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: music,
+        source_code_link: "https://github.com/Chandrasura25/jingle-jangle",
+    },
+    {
+        name: "Blog On",
+        description:
+            "Web-based platform that allows users to create and publish their own blog posts. Users can write, edit and format their posts, as well as add images. Additional features include categorization of posts, tracking of views and engagement, comments.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: blog,
+        source_code_link: "https://github.com/Chandrasura25/Blog_next",
+    },
+    {
+        name: "Quiz Time",
+        description:
+            "A quiz app that allows users to take quizzes on various topics. It features multiple-choice questions with options to select the correct answer. Users can track their progress and view their scores.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: quiz,
+        source_code_link: "https://github.com/Chandrasura25/QUIZ-APP",
+    },
+    {
+        name: "Art Gallery",
+        description:
+            "An art gallery app that allows users to view artwork from various artists and galleries. It features high-quality images of artwork, along with information about the artist and the artwork.",
+        tags: [
+            {
+                name: "Angular",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: art,
+        source_code_link: "https://github.com/Chandrasura25/Art-Gallery-with-Angular",
     },
 ];
 

@@ -35,7 +35,9 @@ import exercise from './exercise.png';
 import fun from './fun.png';
 import music from './music.png';
 import quiz from './quiz.png';
+import art from './art.png';
 export {
+  art,
   estate,
   exercise,
   fun,
