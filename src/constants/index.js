@@ -10,29 +10,28 @@ import {
     creator,
     mobile,
     web,
-    html,
-    css,
-    bootstrap,
-    sass,
     javascript,
-    git,
-    firebase,
-    tailwind,
+    typescript,
+    css,
+    html,
     reactjs,
     redux,
+    tailwind,
     nodejs,
     mongodb,
+    threejs,
+    nextjs,
+    git,
+    figma,
+    docker,
     angular,
     php,
-    laravel,
     mysql,
-    nextjs,
-    mui,
     graphql,
-    docker,
-    figma,
-    typescript,
-    threejs,
+    firebase,
+    sass,
+    bootstrap,
+    mui,
     sqi,
     pencill,
 } from "../assets";
@@ -73,36 +72,20 @@ const services = [
 
 const technologies = [
     {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
         name: "HTML 5",
         icon: html,
     },
     {
-        name: "Bootstrap",
-        icon: bootstrap,
-    },
-    {
-        name: "Sass",
-        icon: sass,
+        name: "CSS 3",
+        icon: css,
     },
     {
         name: "JavaScript",
         icon: javascript,
     },
     {
-        name: "Firebase",
-        icon: firebase,
-    },
-    {
         name: "TypeScript",
         icon: typescript,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
     },
     {
         name: "React JS",
@@ -121,34 +104,6 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Angular",
-        icon: angular,
-    },
-    {
-        name: "PHP",
-        icon: php,
-    },
-    {
-        name: "Laravel",
-        icon: laravel,
-    },
-    {
-        name: "MySQL",
-        icon: mysql,
-    },
-    {
-        name: "Material UI",
-        icon: mui,
-    },
-    {
-        name: "Next Js",
-        icon: nextjs,
-    },
-    {
-        name: "GraphQL",
-        icon: graphql,
-    },
-    {
         name: "Three JS",
         icon: threejs,
     },
@@ -157,14 +112,19 @@ const technologies = [
         icon: git,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "PHP",
+        icon: php,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "NEXT JS",
+        icon: nextjs,
+    },
+    {
+        name: 'Angular Js',
+        icon: angular,
     },
 ];
+
 
 const experiences = [
     {
