@@ -16,15 +16,13 @@ import {
     figma,
     docker,
     sqi,
-    starbucks,
-    tesla,
+    ming,
     pencill,
     art,
     threejs,
     blog,
     estate,
     exercise,
-    fun,
     music,
     quiz
 } from "../assets";
@@ -121,8 +119,8 @@ const technologies = [
 const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        company_name: "SQI",
+        icon: sqi,
         iconBg: "#383E56",
         date: "March 2020 - April 2021",
         points: [
@@ -133,16 +131,16 @@ const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Content Creator",
+        company_name: "Mingyue Palace",
+        icon: ming,
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Creates and develops engaging and informative content across various platforms, such as social media, blogs, and websites.",
+            "Conducts research and stays up-to-date on industry trends to ensure content is relevant and interesting.",
+            "Collaborates with designers, videographers, and other content creators to produce multimedia content.",
+            "Analyzes data and metrics to evaluate the success of content and adjust strategies accordingly.",
         ],
     },
     {
@@ -165,10 +163,10 @@ const experiences = [
         iconBg: "#E6DEDD",
         date: "Sept 2021 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Develops and maintains both the frontend and backend of web applications.",
+            "Utilizes a variety of programming languages and frameworks, such as HTML/CSS, JavaScript, Node.js, and PHP.",
+            "Collaborates with designers, backend developers, and other stakeholders to ensure seamless integration of features.",
+            "Ensures the performance, scalability, and security of the web application.",
         ],
     },
 ];

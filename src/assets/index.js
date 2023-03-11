@@ -24,12 +24,9 @@ import threejs from "./tech/threejs.svg";
 import sqi from "./company/sqi.png";
 import pencill from "./company/pencill.jpg";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import ming from "./company/ming.png";
 
-import carrent from "./carrent.png";
 import blog from "./blog.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import estate from './estate.png';
 import exercise from './exercise.png';
 import fun from './fun.png';
@@ -37,6 +34,7 @@ import music from './music.png';
 import quiz from './quiz.png';
 import art from './art.png';
 export {
+  ming,
   art,
   estate,
   exercise,
@@ -68,8 +66,4 @@ export {
   sqi,
   pencill,
   starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
 };
