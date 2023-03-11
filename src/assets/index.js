@@ -38,7 +38,6 @@ import ming from "./company/ming.png";
 import blog from "./blog.png";
 import estate from './estate.png';
 import exercise from './exercise.png';
-import fun from './fun.png';
 import music from './music.png';
 import quiz from './quiz.png';
 import art from './art.png';
@@ -47,7 +46,6 @@ export {
   art,
   estate,
   exercise,
-  fun,
   music,
   quiz,
   blog,
