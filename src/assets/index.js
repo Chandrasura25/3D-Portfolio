@@ -9,7 +9,7 @@ import close from "./close.svg";
 
 import html from "./tech/html.png";
 import css from "./tech/css.png";
-import bootstrap from "./tech/bootstrap.png";
+import bootstrap from "./tech/Bootstrap.png";
 import sass from "./tech/Sass.png";
 import javascript from "./tech/javascript.png";
 import firebase from "./tech/firebase.png";
