@@ -7,23 +7,32 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
+import css from "./tech/css.png";
+import bootstrap from "./tech/bootstrap.png";
+import sass from "./tech/Sass.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import firebase from "./tech/firebase.png";
+import tailwind from "./tech/tailwind.png";
+import git from "./tech/git.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import nodejs from "./tech/nodejs.png";
+import mongodb from "./tech/mongodb.png";
+import angular from "./tech/Angular.png";
+import php from "./tech/Php.jpg";
+import laravel from "./tech/Laravel.jpg";
+import mysql from "./tech/mysql.jpg";
+import nextjs from "./tech/Nextjs.jpg";
+import mui from "./tech/mui.png";
+import graphql from "./tech/graphql.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import figma from "./tech/figma.png";
+import docker from "./tech/docker.png";
 
 import sqi from "./company/sqi.png";
 import pencill from "./company/pencill.jpg";
-import starbucks from "./company/starbucks.png";
 import ming from "./company/ming.png";
 
 import blog from "./blog.png";
@@ -50,20 +59,29 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
   html,
+  css,
+  bootstrap,
+  sass,
   javascript,
-  mongodb,
-  nodejs,
+  git,
+  firebase,
+  tailwind,
   reactjs,
   redux,
-  tailwind,
+  nodejs,
+  mongodb,
+  angular,
+  php,
+  laravel,
+  mysql,
+  nextjs,
+  mui,
+  graphql,
+  docker,
+  figma,
   typescript,
   threejs,
   sqi,
   pencill,
-  starbucks,
 };
