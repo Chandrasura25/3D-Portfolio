@@ -35,6 +35,8 @@ const App = () => {
           <Feedbacks />
         </div>
         <div className="relative z-0">
+    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="roqeebah-abdulganiy-367a48224" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ng.linkedin.com/in/roqeebah-abdulganiy-367a48224?trk=profile-badge">Roqeebah Abdulganiy</a></div>
+              
           <Contact />
           <StarsCanvas />
         </div>
